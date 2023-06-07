@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-29T14:23:11 IST" name="Suite" finished-at="2023-05-29T14:23:51 IST" duration-ms="40432">
+  <suite started-at="2023-06-07T14:00:59 IST" name="Suite" finished-at="2023-06-07T14:01:33 IST" duration-ms="33500">
     <groups>
     </groups>
-    <test started-at="2023-05-29T14:23:11 IST" name="Test" finished-at="2023-05-29T14:23:51 IST" duration-ms="40432">
+    <test started-at="2023-06-07T14:00:59 IST" name="Test" finished-at="2023-06-07T14:01:33 IST" duration-ms="33500">
       <class name="Test_Cases.Logout_Test">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:Test_Cases.Logout_Test@60bd273d]" started-at="2023-05-29T14:23:36 IST" name="initDriver" finished-at="2023-05-29T14:23:42 IST" duration-ms="5233" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:Test_Cases.Logout_Test@534a5a98]" started-at="2023-06-07T14:01:19 IST" name="initDriver" finished-at="2023-06-07T14:01:24 IST" duration-ms="5171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="Logout_Validation(java.util.Map)[pri:0, instance:Test_Cases.Logout_Test@60bd273d]" started-at="2023-05-29T14:23:42 IST" name="Logout_Validation" data-provider="LoginData" finished-at="2023-05-29T14:23:51 IST" duration-ms="9398" status="PASS">
+        <test-method signature="Logout_Validation(java.util.Map)[pri:0, instance:Test_Cases.Logout_Test@534a5a98]" started-at="2023-06-07T14:01:24 IST" name="Logout_Validation" data-provider="LoginData" finished-at="2023-06-07T14:01:33 IST" duration-ms="8217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,17 +22,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout_Validation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Test_Cases.Logout_Test@60bd273d]" started-at="2023-05-29T14:23:51 IST" name="closeDriver" finished-at="2023-05-29T14:23:51 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Test_Cases.Logout_Test@534a5a98]" started-at="2023-06-07T14:01:33 IST" name="closeDriver" finished-at="2023-06-07T14:01:33 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- Test_Cases.Logout_Test -->
       <class name="Test_Cases.Login_Test">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:Test_Cases.Login_Test@f0da945]" started-at="2023-05-29T14:23:12 IST" name="initDriver" finished-at="2023-05-29T14:23:20 IST" duration-ms="8358" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:Test_Cases.Login_Test@194bcebf]" started-at="2023-06-07T14:01:00 IST" name="initDriver" finished-at="2023-06-07T14:01:06 IST" duration-ms="6029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="Login_Flow(java.util.Map)[pri:1, instance:Test_Cases.Login_Test@f0da945]" started-at="2023-05-29T14:23:20 IST" name="Login_Flow" data-provider="LoginData" finished-at="2023-05-29T14:23:31 IST" duration-ms="10761" status="PASS">
+        <test-method signature="Login_Flow(java.util.Map)[pri:1, instance:Test_Cases.Login_Test@194bcebf]" started-at="2023-06-07T14:01:06 IST" name="Login_Flow" data-provider="LoginData" finished-at="2023-06-07T14:01:14 IST" duration-ms="7607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,15 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Flow -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Test_Cases.Login_Test@f0da945]" started-at="2023-05-29T14:23:31 IST" name="closeDriver" finished-at="2023-05-29T14:23:31 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Test_Cases.Login_Test@194bcebf]" started-at="2023-06-07T14:01:14 IST" name="closeDriver" finished-at="2023-06-07T14:01:14 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:Test_Cases.Login_Test@f0da945]" started-at="2023-05-29T14:23:31 IST" name="initDriver" finished-at="2023-05-29T14:23:36 IST" duration-ms="5017" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:Test_Cases.Login_Test@194bcebf]" started-at="2023-06-07T14:01:14 IST" name="initDriver" finished-at="2023-06-07T14:01:19 IST" duration-ms="4802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="Login_Validation(java.util.Map)[pri:2, instance:Test_Cases.Login_Test@f0da945]" started-at="2023-05-29T14:23:36 IST" name="Login_Validation" data-provider="LoginData" finished-at="2023-05-29T14:23:36 IST" duration-ms="1" status="PASS">
+        <test-method signature="Login_Validation(java.util.Map)[pri:2, instance:Test_Cases.Login_Test@194bcebf]" started-at="2023-06-07T14:01:19 IST" name="Login_Validation" data-provider="LoginData" finished-at="2023-06-07T14:01:19 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Validation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Test_Cases.Login_Test@f0da945]" started-at="2023-05-29T14:23:36 IST" name="closeDriver" finished-at="2023-05-29T14:23:36 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Test_Cases.Login_Test@194bcebf]" started-at="2023-06-07T14:01:19 IST" name="closeDriver" finished-at="2023-06-07T14:01:19 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
